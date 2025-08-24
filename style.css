@@ -1,0 +1,119 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #6A4E23;
+  /* Dark brown navbar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Soft shadow effect */
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.navbar-nav .nav-link {
+  color: #F5F0E1 !important;
+  /* Light text color */
+} 
+
+.navbar-nav .nav-link:hover {
+  background-color: #8B5E3C;
+  /* Lighter brown on hover */
+  border-radius: 5px;
+  color: white !important;
+  /* White text on hover */
+}
+
+
+/* Product Card Styling */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition */
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge the card on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  /* Soft shadow on hover */
+}
+
+.card-body {
+  padding: 1.25rem;
+  /* Spacing inside the card */
+}
+
+.card-title {
+  font-size: 1.2rem;
+  /* Slightly larger font for product names */
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  /* Font size for product price */
+  color: #8B5E3C;
+  /* Lighter brown for product price */
+}
+
+
+/* Button Styling */
+.btn {
+  border-radius: 25px;
+  /* Rounded corners for buttons */
+}
+
+.btn-custom {
+  background-color: #6A4E23;
+  /* Dark brown for the main button */
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
+}
+
+.btn-custom:hover {
+  background-color: #8B5E3C;
+  /* Lighter brown on hover */
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-outline-custom {
+  border-color: #6A4E23;
+  color: #6A4E23;
+}
+
+.btn-outline-custom:hover {
+  background-color: #6A4E23;
+  color: white;
+}
+
+/* Typography Styling */
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Poppins', sans-serif;
+  /* Elegant, clean font for headings */
+  font-weight: bold;
+  color: #6A4E23;
+  /* Dark brown for headings */
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  /* Clean font for paragraphs */
+  color: #333;
+  /* Dark text for better readability */
+}
+
+.card-title {
+  font-size: 1.3rem;
+  /* Larger font for product names */
+  color: #6A4E23;
+  /* Dark brown */
+}
+
+.card-text {
+  color: #8B5E3C;
+  /* Lighter brown for product prices */
+}
