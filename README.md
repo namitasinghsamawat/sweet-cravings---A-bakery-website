@@ -1,1 +1,2 @@
 # sweet-cravings---A-bakery-website
+Sweet Cravings is a dynamic bakery website designed to showcase products like cakes, pastries, and breads with features such as add-to-cart, checkout, login/registration, and an admin panel. The frontend is built using HTML, CSS, JavaScript, and Bootstrap for a clean and responsive design. The backend is powered by PHP with MySQL database (using XAMPP) to handle user authentication, product management, and cart functionality.”
